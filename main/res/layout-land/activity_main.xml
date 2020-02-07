@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/statistics"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp">
+
+
+        <TextView
+            android:id="@+id/fetchdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="44dp"
+            android:hint="Click any button!"
+            android:paddingBottom="60dp"
+            android:scrollbars="vertical"
+            android:textSize="18dp"></TextView>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="492dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-208dp"
+        android:layout_marginEnd="272dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/brand"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:text="Brands"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/categories"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="531dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorPrimary"
+        android:text="Categories"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="246dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="463dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="270dp"
+        android:background="@color/colorPrimary"
+        android:text="Share!"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="741dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="-15dp"
+        android:text="@string/description" />
+
+    <Button
+        android:id="@+id/affiliates"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="475dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:text="Affiliates"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
